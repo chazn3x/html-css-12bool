@@ -2,7 +2,7 @@
 .container {
     width: 720px;
     height: 720px;
-    background-color: grey;
+    /* background-color: grey; */
     margin-top: 50px;
 }
 .box {
@@ -38,7 +38,16 @@
     background-color: rgb(155,128,98);
 }
 .white {
-    background-color: #fff;
+    background-color: white;
+}
+/* animazione occhi */
+.eyes {
+    animation: blinking-eyes 1s ease-out infinite;
+}
+@keyframes blinking-eyes {
+    50% {
+        background-color:rgb(222, 237, 255);
+    }
 }
 .lightgrey {
     background-color: lightgrey;
@@ -55,6 +64,9 @@
 .orange {
     background-color: rgb(182,116,66);
 }
+.lightblue {
+    background-color: rgb(106,133,152);
+}
 
 
 
@@ -63,6 +75,7 @@
 
 
 /* debug */
+/* prove reticolato vecchio */
 .debug .container>.row:nth-child(even) .col-3:nth-child(odd) .box {
     /* background-color: #fff; */
 }
@@ -70,6 +83,7 @@
     /* background: #fff; */
 }
 
+/* croce reticolato */
 .debug .container>.row:nth-child(24) .box,
 .debug .container>.row:nth-child(25) .box,
 .debug .col-3:nth-child(2) .col-1:nth-child(12) .box,
