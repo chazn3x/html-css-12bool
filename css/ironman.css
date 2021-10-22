@@ -1,0 +1,78 @@
+/* struttura dell'immagine */
+.container {
+    width: 720px;
+    height: 720px;
+    background-color: grey;
+    margin-top: 50px;
+}
+.box {
+    min-height: 15px;
+    background-color: lightgrey;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+
+/* colori immagine */
+.blue {
+    background-color: rgb(15,61,97);
+}
+.black {
+    background-color: #000;
+}
+.red {
+    background-color: red;
+}
+.darkred {
+    background-color: rgb(140,20,19);
+}
+.brown {
+    background-color: rgb(81,46,38);
+}
+.lightbrown {
+    background-color: rgb(125,47,37);
+}
+.grey {
+    background-color: grey;
+}
+.beige {
+    background-color: rgb(155,128,98);
+}
+.white {
+    background-color: #fff;
+}
+.lightgrey {
+    background-color: lightgrey;
+}
+.darkorange {
+    background-color: rgb(178,86,17);
+}
+.sand {
+    background-color: rgb(228,198,151);
+}
+.gold {
+    background-color: rgb(217,173,93);
+}
+.orange {
+    background-color: rgb(182,116,66);
+}
+
+
+
+
+
+
+
+/* debug */
+.debug .container>.row:nth-child(even) .col-3:nth-child(odd) .box {
+    /* background-color: #fff; */
+}
+.debug .container>.row:nth-child(odd) .col-3:nth-child(even) .box {
+    /* background: #fff; */
+}
+
+.debug .container>.row:nth-child(24) .box,
+.debug .container>.row:nth-child(25) .box,
+.debug .col-3:nth-child(2) .col-1:nth-child(12) .box,
+.debug .col-3:nth-child(3) .col-1:nth-child(1) .box {
+    /* background-color: lightblue; */
+}
