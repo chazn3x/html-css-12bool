@@ -1,0 +1,20 @@
+.box {
+    background-color: skyblue;
+    min-height: 100px;
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.nested-box {
+    background-color: darkcyan;
+    min-height: 100px;
+    flex-basis: 100%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
