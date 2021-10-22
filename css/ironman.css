@@ -8,7 +8,7 @@
 .box {
     min-height: 15px;
     background-color: lightgrey;
-    border: 1px solid rgba(0,0,0,0.1);
+    /* border: 1px solid rgba(0,0,0,0.1); */
 }
 
 
@@ -42,11 +42,11 @@
 }
 /* animazione occhi */
 .eyes {
-    animation: blinking-eyes 1s ease-out infinite;
+    animation: blinking-eyes 1s ease-in infinite;
 }
 @keyframes blinking-eyes {
-    50% {
-        background-color:rgb(222, 237, 255);
+    100% {
+        background-color:rgb(133, 162, 199);
     }
 }
 .lightgrey {
