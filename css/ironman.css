@@ -119,7 +119,7 @@ header #ironman-logo img {
     width: 100%;
     background-image: url(../img/targhetta.png);
     background-size: cover;
-    min-height: 30px;
+    min-height: 10px;
 }
 
 /* footer */
@@ -143,6 +143,9 @@ footer #credits h2 {
     .box {
         min-height: 8px;
     }
+    .targhetta {
+        min-height: 16px;
+    }
 }
 @media screen and (min-width: 576px) {
     .art {
@@ -151,6 +154,9 @@ footer #credits h2 {
     }
     .box {
         min-height: 11.5px;
+    }
+    .targhetta {
+        min-height: 23px;
     }
     footer #credits h2 {
         font-size: 22px;
@@ -172,6 +178,9 @@ footer #credits h2 {
     }
     .box {
         min-height: 15px;
+    }
+    .targhetta {
+        min-height: 30px;
     }
 }
 
