@@ -18,3 +18,29 @@
     justify-content: center;
     text-align: center;
 }
+
+/* stile pulsante bonus */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+#btn-row>div {
+    display: flex;
+    justify-content: center;
+}
+#bonus-btn {
+    background-color: rgb(15,61,97);
+    border: 15px solid black;
+    animation: scale-up 1s ease infinite;
+    width: 100%;
+    max-width: 550px;
+    height: 100%;
+}
+@keyframes scale-up {
+    50% {scale: 1.03;}
+}
+#bonus-btn a {
+    line-height: 100px;
+    width: 100%;
+    color: lightgray;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}

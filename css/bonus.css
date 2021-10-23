@@ -49,11 +49,107 @@ header #ironman-logo img {
     background-color: rgb(240,240,240);
     outline: 15px solid black;
     margin-bottom: 30px;
+    animation: art-bg 7s ease;
+}
+@keyframes art-bg {
+    0% {
+        background-color: transparent;
+        outline: 15px solid transparent;
+    }
+    25% {
+        background-color: transparent;
+        outline: 15px solid transparent;
+    }
+    26% {
+        background-color: rgba(240,240,240,0.1);
+        outline: 15px solid black;
+    }
+    29% {
+        background-color: transparent;
+        outline: 15px solid transparent;
+    }
+    50% {
+        background-color: transparent;
+        outline: 15px solid transparent;
+    }
+    51% {
+        background-color: rgba(240,240,240,0.5);
+        outline: 15px solid black;
+    }
+    52% {
+        background-color: transparent;
+        outline: 15px solid transparent;
+    }
+    53% {
+        background-color: rgba(240,240,240,0.5);
+        outline: 15px solid black;
+    }
+    54% {
+        background-color: transparent;
+        outline: 15px solid transparent;
+    }
+    75% {
+        background-color: transparent;
+        outline: 15px solid transparent;
+    }
+    76% {
+        background-color: rgba(240,240,240,0.7);
+        outline: 15px solid black;
+    }
+    77% {
+        background-color: transparent;
+        outline: 15px solid transparent;
+    }
+    78% {
+        background-color: rgba(240,240,240,0.7);
+        outline: 15px solid black;
+    }
+    79% {
+        background-color: transparent;
+        outline: 15px solid transparent;
+    }
+    80% {
+        background-color: rgba(240,240,240,0.7);
+        outline: 15px solid black;
+    }
+    81% {
+        background-color: transparent;
+        outline: 15px solid transparent;
+    }
+    90% {
+        background-color: transparent;
+        outline: 15px solid transparent;
+    }
+    100% {
+        background-color: rgba(240,240,240,1);
+        outline: 15px solid black;
+    }
 }
 .box {
     min-height: 5px;
+    animation: show-art 7s ease;
     /* background-color: lightgrey; */
     /* border: 1px solid rgba(0,0,0,0.1); */
+}
+@keyframes show-art {
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    26% {opacity: 0.1;}
+    29% {opacity: 0;}
+    50% {opacity: 0;}
+    51% {opacity: 0.5;}
+    52% {opacity: 0;}
+    53% {opacity: 0.5;}
+    54% {opacity: 0;}
+    75% {opacity: 0;}
+    76% {opacity: 0.7;}
+    77% {opacity: 0;}
+    78% {opacity: 0.7;}
+    79% {opacity: 0;}
+    80% {opacity: 0.7;}
+    81% {opacity: 0;}
+    90% {opacity: 0;}
+    100% {opacity: 1;}
 }
 /* colori immagine */
 .blue {
@@ -104,7 +200,7 @@ header #ironman-logo img {
 
 /* animazione occhi */
 .eyes {
-    animation: blinking-eyes 2s ease-in infinite;
+    animation: blinking-eyes 1.5s ease-in infinite;
 }
 @keyframes blinking-eyes {
     10% {background-color: rgb(133, 162, 199);}
@@ -124,6 +220,7 @@ header #ironman-logo img {
     background-image: url(../img/targhetta.png);
     background-size: cover;
     min-height: 10px;
+    animation: show-art 7s ease;
 }
 
 /* footer */
