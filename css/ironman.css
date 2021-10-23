@@ -42,12 +42,14 @@
 }
 /* animazione occhi */
 .eyes {
-    animation: blinking-eyes 1s ease-in infinite;
+    animation: blinking-eyes 2s ease-in infinite;
 }
 @keyframes blinking-eyes {
-    100% {
-        background-color:rgb(133, 162, 199);
-    }
+    10% {background-color: rgb(133, 162, 199);}
+    11% {background-color: #fff;}
+    20% {background-color: rgb(133, 162, 199);}
+    21% {background-color: #fff;}
+    100% {background-color:rgb(133, 162, 199);}
 }
 .lightgrey {
     background-color: lightgrey;
