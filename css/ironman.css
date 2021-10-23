@@ -7,6 +7,10 @@ body {
 }
 * {
     color: lightgray;
+    cursor: default;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 /* header */
